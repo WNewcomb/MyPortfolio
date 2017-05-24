@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>The Portfolio of Whitney K. Newcomb</title>
+<title>Portfolio of Whitney K. Newcomb</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link href="myw3.css" rel="stylesheet" type="text/css">
+<link href="assets/css/main.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <style>
 html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 .w3-sidenav a,.w3-sidenav h4 {font-weight:bold}
 </style>
-</head>
-
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidenav/menu -->
@@ -20,29 +18,29 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="Images/Selfy.jpg" style="width:45%;" class="w3-round"><br><br>
+    <img src="Images/GradPic.jpg" style="width:45%;" class="w3-round"><br><br>
     <h4 class="w3-padding-0"><b>Whitney K. Newcomb</b></h4>
   </div>
   <a href="index.html" class="w3-padding w3-text-teal">Home</a>
   <a href="Resume_CV.html" class="w3-padding">Resume and CV</a>
-  <a href="Cartography.html" class="w3-padding">Cartography</a>
-  <a href="Contact.html" class="w3-padding">Contact</a>
-</nav>
+  <a href="Cartography.html" class="w3-padding">Cartogaphy</a>
+  <a href="Contact.html" class="w3-padding ">Contact</a></nav>
 
 <!-- Overlay effect when opening sidenav on small screens -->
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- !PAGE CONTENT! --> 
+<!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:300px">
 
   <!-- Header -->
   <header class="w3-container">
-    <a href="#"><img src="img_avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <a href="#"><img src="Images/GradPic.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-    <h1><strong>Welcome!</strong></h1>
-
+    <h1><b>Welcome</b></h1>
+	
   </header>
-
+  
+ 
 <div class="w3-row-padding w3-padding-64 w3-container" style="text-align: center">
 <div class="w3-content">
 <div class="w3-twothird">
@@ -52,20 +50,25 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </div>
 </div>
 
-  
-<!-- Footer -->
+
+
+  <!-- Footer -->
 <!-- End page content -->
 </div>
+
 <script>
 // Script to open and close sidenav
 function w3_open() {
     document.getElementById("mySidenav").style.display = "block";
     document.getElementById("myOverlay").style.display = "block";
 }
+ 
 function w3_close() {
     document.getElementById("mySidenav").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
 }
 </script>
+
 </body>
 </html>
+
